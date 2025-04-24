@@ -6,8 +6,6 @@ public class oppgave2 {
 
 	}
 	public <T> void skrivVerdier(T nedre, T ovre) {
-
-		BinaerTreNode rot;
 		skrivVerdierRek(rot, nedre, ovre);
 	}
 	private <T> void skrivVerdierRek(BinaerTreNode<T> t, T nedre, T ovre) {
