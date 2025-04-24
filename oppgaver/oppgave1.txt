@@ -1,0 +1,56 @@
+1 a)
+
+EL65431 -> 1
+TA14374 -> 4
+ZX87181 -> 1 -> kollisjon -> 2
+EL47007 -> 7
+VV50000 -> 0
+UV14544 -> 4 -> kollisjon -> 5
+EL32944 -> 4 -> kollisjon -> 6
+
+Index, Innhold
+0, VV50000
+1, EL65431
+2, ZX87181
+3, EL47007
+4, TA14374
+5, UV14544
+6, EL32944
+
+b)
+0, VV50000
+1, EL65431, ZX87181
+2
+3
+4, TA14374, UV14544, EL32944
+5
+6
+7, EL47007
+
+c)
+linear probing:
+EL32944: 1 kall
+TA14374: 1 kall
+ZX87181: 2 kall
+EL47007: 1 kall
+VV50000: 1 kall
+UV14544: 2 kall
+EL32944: 3 kall
+snitt: 11/7 = 1.57
+
+separate chaining:
+EL32944: 1 kall
+TA14374: 1 kall
+ZX87181: 2 kall
+EL47007: 1 kall
+VV50000: 1 kall
+UV14544: 2 kall
+EL32944: 3 kall
+snitt: 11/7 = 1.57
+
+snittene er like
+
+d)
+
+e)
+fyllingsgrad = antall / størrelse = 7 / 10 = 0.7
