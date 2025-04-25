@@ -54,3 +54,31 @@ d)
 
 e)
 fyllingsgrad = antall / størrelse = 7 / 10 = 0.7
+
+f)
+fåreslått hash funksjon = to siste siffer % 20
+bør gi en god spredning og passer fint til størrelse 20
+EL65431: 31 % 20 = 11
+TA14374: 74 % 20 = 14
+ZX87181: 81 % 20 = 1
+EL47007: 07 % 20 = 7
+VV50000: 00 % 20 = 0
+UV14544: 44 % 20 = 4
+EL32944: 44 % 20 = 4 (kollisjon) -> 5
+
+0: VV50000
+1: ZX87181
+2: 
+3: 
+4: UV14544
+5: EL32944
+6: 
+7: EL47007
+8:
+9:
+10:
+11: EL65431
+12:
+13:
+14: TA14374
+15-19:
