@@ -82,3 +82,12 @@ EL32944: 44 % 20 = 4 (kollisjon) -> 5
 13:
 14: TA14374
 15-19:
+
+
+5 a)
+
+en haug er et komplett binært tre hvor hver node i treet er enten større (makshaug) enn eller mindre (minhaug) enn barna.
+
+
+
+
