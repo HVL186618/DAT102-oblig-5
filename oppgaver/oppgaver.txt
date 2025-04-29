@@ -1,3 +1,5 @@
+Uke 13
+
 1 a)
 
 EL65431 -> 1
@@ -84,6 +86,7 @@ EL32944: 44 % 20 = 4 (kollisjon) -> 5
 15-19:
 
 
+Uke 15/16
 5 a)
 
 en haug er et komplett binært tre hvor hver node i treet er enten større (makshaug) enn eller mindre (minhaug) enn barna.
