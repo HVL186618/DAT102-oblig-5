@@ -9,7 +9,8 @@ public class oppgave1 {
 		// TODO Auto-generated method stub
 		int[] liste = {15,8,1,9,11,5,10,12};
 		//System.out.println(arrayToStr(selectionSort(liste)));
-		System.out.println(arrayToStr(heapSort(liste)));
+		//System.out.println(arrayToStr(heapSort(liste)));
+		System.out.println(arrayToStr(insertionSort(liste)));
 
 	}
 	public static int[] selectionSort(int[] array) {
@@ -27,6 +28,20 @@ public class oppgave1 {
         }
         return array;
     }
+	public static int[] insertionSort(int[] array) {
+		int n = array.length;
+	    for (int i = 1; i < n; ++i) {
+	        int current = array[i];
+	        int j = i - 1;
+	        while (j >= 0 && array[j] > current) {
+	            array[j + 1] = array[j];
+	            j = j - 1;
+	        }
+	        array[j + 1] = current;
+	    }
+		return array;
+	}
+
 	public static int[] heapSort(int [] array) {
         int n = array.length;
         int temp = 0;
