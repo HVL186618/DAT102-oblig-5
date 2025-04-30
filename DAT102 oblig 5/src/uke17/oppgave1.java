@@ -72,5 +72,22 @@ public class oppgave1 {
 		
 		
 	}
+	public static int[] newSelectionSort(int[] array) {
+		//TODO
+		return array;
+		
+	}
+	public static int[] newInsertionSort(int[] array) {
+		//TODO
+		return array;
+		
+	}
+	public static int[] newHeapSort(int[] array) {
+		//TODO
+		return array;
+		
+	}
+
+
 
 }
